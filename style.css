@@ -1,0 +1,211 @@
+
+:root{
+    --color-white: #1f2623; 
+    --color-black:#FEFCFD;
+    /*Cinza #C3BCC0*/
+
+    --font-title-desktop: 3rem;
+    --font-span-desktop: 1.5rem;
+    --font-text-desktop: 1.2rem;
+
+    --font-title-mobile: 2rem;
+    --font-span-mobile: 1.2rem;
+    --font-text-mobile: 1rem;
+}
+* {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    
+}
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-top: 60px;
+}
+body {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    padding-top: 0px;
+}
+a{
+    color: var(--color-black);
+}
+
+.img-user {
+    margin-right: 10px;
+    
+}
+
+.img-user img {
+    width: 400px;
+    height: 400px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.info-pessoal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.info-content{
+    display: flex;
+    align-items: center;
+}
+
+.text-content{
+    max-width: 500px;
+}
+h2{
+    color: var(--color-black);
+}
+h1 {
+    margin: 0;
+    font-size: var(--font-title-desktop);
+    color: var(--color-black);
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: var(--font-text-desktop);
+    color: var(--color-black);
+}
+
+.obj{
+   max-width: 1000px;
+   margin:0 auto;
+
+}
+
+.obj h2{
+    margin-bottom: 20px;
+    font-size: var(--font-title-desktop);
+
+}
+
+.obj p{
+    font-size: var(--font-text-desktop);
+}
+.formação{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.lista{
+    list-style-type: circle;
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+
+.lista li{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: var(--color-white);
+}
+
+.lista img{
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+
+}
+.navbar{
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+   
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    color: var(--color-black);
+    padding: 10px 20px;
+    margin: 0 5px;
+    transition: border-bottom 0.3s ease, padding 0.3s ease;
+
+}
+.navbar a:hover{
+
+    border-bottom: 2px #FEFCFD solid;
+    overflow: hidden;
+}
+h3{
+    color: var(--color-black);
+}
+.habilidade{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.ul h1{
+    margin: 0 0 40px ;
+}
+
+.ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    margin: 20px 0px;
+    justify-content: center;
+}
+.ul li{
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+    background-color: var(--color-white);
+
+}
+.ExpProfi{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:20px;
+    align-items: center;
+    text-align: center;
+}
+.ExpProfi img{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.ExpProfi h1{
+    margin: 0 0 40px ;
+}
+
+.empresa1{
+    margin-top: 40px;
+}
+.empresa2{
+    margin-top: 40px;
+}
