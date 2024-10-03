@@ -212,12 +212,13 @@ h3{
 
     .navbar {
         flex-direction: column;
-        padding: 20px 0;
+        align-items: center;    
+        padding: 10px 0;
     }
 
     .navbar a {
-        padding: 10px 0;
-        margin: 5px 0;
+        padding: 10px 0;        
+        margin: 5px 0;          
     }
 
     .obj, .formação, .habilidade {
