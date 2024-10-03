@@ -211,14 +211,7 @@ h3{
     }
 
     .navbar {
-        flex-direction: column;
-        align-items: center;    
-        padding: 10px 0;
-    }
-
-    .navbar a {
-        padding: 10px 0;        
-        margin: 5px 0;          
+        display: none; 
     }
 
     .obj, .formação, .habilidade {
