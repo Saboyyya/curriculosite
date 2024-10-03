@@ -183,29 +183,58 @@ h3{
     background-color: var(--color-white);
 
 }
-.ExpProfi{
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding:20px;
-    align-items: center;
-    text-align: center;
-}
-.ExpProfi img{
-    width: 200px;
-    height: 200px; 
-    border-radius: 50%; 
-    object-fit: cover;
-}
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
 
-.ExpProfi h1{
-    margin: 0 0 40px ;
-}
+    .container {
+        padding: 0;
+    }
 
-.empresa1{
-    margin-top: 40px;
-}
-.empresa2{
-    margin-top: 40px;
+    .cabeçalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-user img {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: var(--font-title-mobile);
+    }
+
+    p {
+        font-size: var(--font-text-mobile);
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .navbar a {
+        padding: 10px 0;
+        margin: 5px 0;
+    }
+
+    .obj, .formação, .habilidade {
+        padding: 10px;
+    }
+
+    .lista li {
+        padding: 10px;
+        font-size: var(--font-text-mobile);
+    }
+
+    .ul h1, .ul li {
+        font-size: var(--font-title-mobile);
+        margin-bottom: 20px;
+    }
+
+    .text-content {
+        max-width: 100%;
+    } 
 }
