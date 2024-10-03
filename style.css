@@ -209,6 +209,9 @@ h3{
     p {
         font-size: var(--font-text-mobile);
     }
+    h2{
+        font-size: var(--font-span-mobile);
+    }
 
     .navbar {
         display: none; 
